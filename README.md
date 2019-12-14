@@ -45,6 +45,7 @@ step:8, linearSVC(C=0.0004) -> 0.30082
 step:8, histogramIntersection  -> 0.36643
 
 step:8, histogramIntersection kmeans++ -> 0.35992
+
 ---- use 2758 images ---- I
 
 step:8, histogramIntersection, ImageSize(reduction) -> **0.43557**
@@ -87,6 +88,6 @@ Resize 256,256, 200 codebook, SVC(linear, C=1) ->0.55260
 
 [Intersection](https://github.com/wihoho/Image-Recognition/blob/5dc8834dd204e36172815345f0abe5640a4a37ef/recognition/classification.py#L10)
 
-[SPM1]((https://github.com/bilaer/Spatial-pyramid-matching-scene-classifier))
+[SPM1](https://github.com/bilaer/Spatial-pyramid-matching-scene-classifier)
 
 [SPM2](https://github.com/TrungTVo/spatial-pyramid-matching-scene-recognition/blob/master/spatial_pyramid.ipynb)
