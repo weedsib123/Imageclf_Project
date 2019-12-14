@@ -70,9 +70,13 @@ step:8, PCA 100 on descriptor -> 0.13888
 
 ### VLAD(Cut -16 edges )
 200 codebook, SVC(linear, C=1) -> **0.57978**
+
 200 codebook, SVC(linear, C=10) -> 0.56087
+
 200 codebook, SVC(linear, C=1), PCA -> 0.02245
+
 512 codebook, SVC(linear, C=1) -> 0.55791
+
 Resize 256,256, 200 codebook, SVC(linear, C=1) ->0.55260
 
 
