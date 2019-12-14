@@ -76,7 +76,11 @@ Resize 256,256, 200 codebook, SVC(linear, C=1) ->0.55260
 ## Reference
 
 [VLAD](https://github.com/lixuan0023/VLAD/blob/master/VLADClass.py)
+
 [VLAD_codebook](https://books.google.co.kr/books?id=SXzQDQAAQBAJ&pg=PA373&lpg=PA373&dq=vlad+512&source=bl&ots=yNc1cKp-Qv&sig=ACfU3U3BHKySxHTGh8MF0uiUj1mZxKtRSw&hl=ko&sa=X&ved=2ahUKEwiTnuXipbXmAhXYMN4KHfr-BawQ6AEwAHoECAcQAQ#v=onepage&q=vlad%20512&f=false)
+
 [Intersection](https://github.com/wihoho/Image-Recognition/blob/5dc8834dd204e36172815345f0abe5640a4a37ef/recognition/classification.py#L10)
+
 [SPM1]((https://github.com/bilaer/Spatial-pyramid-matching-scene-classifier))
+
 [SPM2](https://github.com/TrungTVo/spatial-pyramid-matching-scene-recognition/blob/master/spatial_pyramid.ipynb)
