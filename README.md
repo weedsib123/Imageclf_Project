@@ -45,12 +45,14 @@ step:8, linearSVC(C=0.0004) -> 0.30082
 step:8, histogramIntersection  -> 0.36643
 
 step:8, histogramIntersection kmeans++ -> 0.35992
-
 ---- use 2758 images ---- I
 
 step:8, histogramIntersection, ImageSize(reduction) -> **0.43557**
+
 step:8, use augmentation -20~20 per 5 rotation and reversal ->  0.40248
+
 step:8, use only reversal image -> 0.41843
+
 step:8, PCA 100 on descriptor -> 0.13888
 ---- use 3030 images ---- I
 
