@@ -79,6 +79,9 @@ step:8, PCA 100 on descriptor -> 0.13888
 
 Resize 256,256, 200 codebook, SVC(linear, C=1) ->0.55260
 
+## Conclusion
+ Initially, I achieved higher than basic performance on BovW. I tried many times and is 0.43557 in bold. What I got from that performance is the conclusion that reducing the imgsize and stepsize by 8 and histogramintersection are  good performance. Decreasing the image means reducing 4 edges end by -16. I tried PCA, but it didn't work at all, and also I created more images with AUGMENTATION(rotation, reverse), but it also didn't work. I don't know the cause that pca doesnt work, but I know argumentation failure reason that doesnt work. When comparing test data and training data photos, I found that they were all similar then did not improve by inversion or rotation. When using SPM, it was used as level 2 pyramid. The conclusion here was that it was better to append the histogram, not add it to each image decriptors and the result was best when not scaling and intersection, and the imagesize 256*256 was best. So when using vlad, I used imgsize(256,256 and -16) and codebook(200 and 512), so it was my best performance to use VLAD that uses 200 codebook and reduce size at the end. The Nice performance have not come up as much as I have invested time. I need more study.
+
 
 ## Mistake
  I use google drives that prevent time-consuming per each time data was loaded from Kaggle.  Losses occurred during data loading into the drive. Learning data should be 101*30=3030 pics, but there was  2758 pics so a lot of time loss while carrying out.
